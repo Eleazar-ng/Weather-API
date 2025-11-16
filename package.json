@@ -1,0 +1,25 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "description": "A weather API that fetches and returns weather data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleazar-ng/Weather-API.git"
+  },
+  "keywords": [
+    "weather",
+    "weather",
+    "api",
+    "api"
+  ],
+  "author": "Laizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eleazar-ng/Weather-API/issues"
+  },
+  "homepage": "https://github.com/Eleazar-ng/Weather-API#readme"
+}
