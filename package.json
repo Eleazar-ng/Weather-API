@@ -2,7 +2,7 @@
   "name": "weather-api",
   "version": "1.0.0",
   "description": "A weather API that fetches and returns weather data.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +18,15 @@
   ],
   "author": "Laizer",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Eleazar-ng/Weather-API/issues"
   },
-  "homepage": "https://github.com/Eleazar-ng/Weather-API#readme"
+  "homepage": "https://github.com/Eleazar-ng/Weather-API#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1"
+  }
 }
