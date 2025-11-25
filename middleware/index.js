@@ -17,10 +17,10 @@ export class Middleware {
   }
 
   static ErrorHandler = (err, req, res, next) => {
-  console.error('Error:', err.message);
-  return res.status(500).json({
-    message: err.message,
-    error: "Internal Server Error",
-  });
+    console.error('Error:', err.message);
+    return res.status(500).json({
+      message: err.message,
+      error: "Internal Server Error",
+    });
 }
 }
