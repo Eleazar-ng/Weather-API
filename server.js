@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 8083;
 
 app.use(Routers)
 
+app.all("*splat", (req, res, next) => {
+  next(new Error("This api endpoint does not exist."));
+});
+
 //Error handling middleware
 app.use(Middleware.ErrorHandler);
 
