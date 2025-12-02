@@ -2,10 +2,12 @@
 import express from "express";
 import "dotenv/config"
 import { Routers } from "./route/index.js";
-import { Middleware } from "./middleware/index.js";
+import { limiter, Middleware } from "./middleware/index.js";
 
 const app = express();
 const PORT = process.env.PORT || 8083;
+
+app.use(limiter);
 
 app.use(Routers)
 
